@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reviseslt</title>
+    <title>Index</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -41,8 +41,8 @@
                                     <div class="navigation">
                                         <ul>
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="#">CPD Diary</a></li>
+                                            <li><a href="personal_portfolio.html">PDP</a></li>
+                                            <li><a href="cpd_diary.html">CPD Diary</a></li>
                                             <li><a href="#">Education</a></li>
                                         </ul>
                                     </div>
@@ -56,17 +56,13 @@
                                         <h4>What have you learned today?</h4>
                                     </div>
                                     <div class="card-body">
-                                        <form>
-                                            <div class="form-group">
-                                              <div class="col-8">
-                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What have you learned today?">
+                                        <form action="" method="post">
+                                            <div class="mb-3">                                            
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write down your learnings..." rows="3"></textarea>
                                               </div>
-                                             
-                                              
-                                            </div>
-                
-                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                              <button class="btn btn-success">Record CPD</button>
                                         </form>
+                                     
                                     </div>
                                 </div>
                             </div>
@@ -136,6 +132,25 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Latest updated modules</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="cpd-list">
+                                        <ul>
+                                            <li><a href="#" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sapiente similique. Suscipit architecto sapiente rerum enim inventore repudiandae, sint laudantium repellat ab est excepturi quas ullam quod debitis tempore adipisci.</a></li>
+                                            <li><a href="#" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod odio non officia tempora exercitationem ipsam veniam delectus, accusantium illum quibusdam debitis maiores accusamus, nobis atque! Pariatur optio sunt inventore!</a></li>
+                                            <li><a href="#" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod odio non officia tempora exercitationem ipsam veniam delectus, accusantium illum quibusdam debitis maiores accusamus</a></li>
+                                            <li><a href="#" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod odio non officia tempora exercitationem ipsam veniam delectus, accusantium illum quibusdam debitis maiores accusamus</a></li>
+                                            <li><a href="#" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod odio non officia tempora exercitationem ipsam veniam delectus, accusantium illum quibusdam debitis maiores accusamus</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-3">
                         <div class="card">
@@ -155,7 +170,7 @@
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h4>Visitors Profile</h4>
+                                <h4>Learning Chart</h4>
                             </div>
                             <div class="card-body">
                                 <div id="chart-visitors-profile">
@@ -165,13 +180,13 @@
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h4>Recent Messages</h4>
+                                <h4>Search</h4>
                             </div>
                             <div class="card-body pb-4">
                                 <form>
                                     <div class="form-group">
                                       <div class="col-11">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What have you learned today?">
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What have you learned today?">
                                       </div>
                                      
                                       
@@ -188,6 +203,8 @@
                                         <li><a href="#" >Music</a></li>
                                     </ul>
                                 </div>
+
+                                <a href="add_cpd.html" class="btn btn-sm  btn-success">Record New CPD</a>
                             </div>
                         </div>
 
@@ -198,11 +215,10 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>2021 &copy; Mazer</p>
+                        <p>2021 &copy; Reviseslt</p>
                     </div>
                     <div class="float-end">
-                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                href="http://ahmadsaugi.com">A. Saugi</a></p>
+                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> 
                     </div>
                 </div>
             </footer>
